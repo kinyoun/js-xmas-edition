@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Clase 6</title>
+        <link rel="stylesheet" href="main-c6.css">
+    </head>
+    <body>
+        <img id="logo" src="tarea6.png">
+        <form id="calculador-edades">
+            <div>
+                <label class="pregunta-familiares">¿Cuánta gente hay en tu grupo familiar?</label>
+                <br>
+                <input class="pregunta-familiares" id="numero-familiares" type="number">
+                <br>
+                <button id="enviar-numero-familiares">Enviar</button>
+            </div>
+        
+            <div id="integrantes" class="elemento"></div>
+            <br>
+            <div id="salarios" class="elemento"></div>
+            
+            <p class="oculto" id="instruccion">Ahora vamos a calcular el mayor, el menor y el promedio de edades!</p>
+            <button class="oculto" id="boton-calcular">Calcular edades</button>
+        
+            
+                <div id="resultado" class="oculto">
+                    <p>El mayor tiene <strong id="mayor-edad"></strong> años</p>
+                    <p>El menor tiene <strong id="menor-edad"></strong> años</p>
+                    <p>El promedio es de <strong id="promedio-edad"></strong> años</p>
+                </div>
+            <button type="reset" id="resetear" class="oculto">Resetear</button>
+            
+            <p class="oculto" id="siguiente-tarea">¿Y si hacemos calculos a partir del salario anual de cada uno?</p>
+            <button id="agregar" class="oculto">Agregar</button>
+            <button id="quitar" class="oculto">Quitar</button>
+            <button id="calcular-salario" class="oculto">Calcular</button>
+            <p class="oculto" id="resultado-salario">El mayor salario anual es de $<strong id="mayor-salario"></strong>, el menor salario anual es de $<strong id="menor-salario"></strong>, el salario anual promedio es de $<strong id="anual-promedio"></strong> y el salario mensual promedio es de $<strong id="mensual-promedio"></strong></p>
+        
+        </form>
+        
+    </body>
+    <script type="text/javascript" src="calculos.js"></script>
+    <script type="text/javascript" src="tarea-c6.js"></script>
+</html>
