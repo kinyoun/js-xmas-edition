@@ -1,0 +1,160 @@
+body {
+  background-color: #fef5ed;
+}
+
+.pregunta-familiares {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 27em;
+  font-size: 25px;
+  text-align: center;
+  font-family: "courier new";
+}
+
+#numero-familiares {
+  text-align: center;
+  width: 7em;
+  font-size: 18px;
+  border: 1px solid #99a799;
+  border-radius: 4px;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+}
+
+#enviar-numero-familiares {
+  text-align: center;
+  width: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+  font-family: "courier new";
+}
+
+.oculto {
+  display: none;
+}
+
+#instruccion {
+  font-size: 20px;
+  font-family: "courier new";
+}
+
+#boton-calcular {
+  text-align: center;
+  width: 10em;
+
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+  font-family: "courier new";
+}
+
+.integrante {
+  text-align: center;
+  width: 4em;
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+}
+
+.label-integrante {
+  color: #adc2a9;
+  font-family: "courier new";
+}
+
+#resultado {
+  font-size: 20px;
+  font-family: "courier new";
+}
+
+#resetear {
+  text-align: center;
+  width: 6em;
+
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+  font-family: "courier new";
+}
+
+#agregar {
+  text-align: center;
+  width: 6em;
+
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+  font-family: "courier new";
+}
+
+#quitar {
+  text-align: center;
+  width: 6em;
+
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+  font-family: "courier new";
+}
+
+#siguiente-tarea {
+  font-size: 20px;
+  font-family: "courier new";
+}
+
+.input-salario {
+  text-align: center;
+  width: 10em;
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+}
+
+.label-salario {
+  color: #adc2a9;
+  font-family: "courier new";
+}
+
+.elemento {
+  display: inline - block;
+}
+
+#calcular-salario {
+  text-align: center;
+  width: 6em;
+
+  font-size: 15px;
+  background-color: #adc2a9;
+  border: none;
+  color: #fef5ed;
+  border-radius: 8px;
+  font-family: "courier new";
+}
+
+#resultado-salario {
+  font-size: 20px;
+  font-family: "courier new";
+}
