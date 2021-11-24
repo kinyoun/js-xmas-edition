@@ -183,3 +183,13 @@ function mostrarElemento(elemento){
 function ocultarElemento(elemento){
     document.querySelector('#'+ elemento).className = 'oculto';
 }
+/////Tarea C8 - validaciones
+const $form = document.querySelector('#calculador-edades');
+const numeroFamiliares = $form['numero-familiares'].value;
+
+function validarNumeroFamiliares(numeroFamiliares){
+    if (!/^[0,9]$/.test(numeroFamiliares)){
+       return 'Este campo solo acepta números enteros'
+    }
+    return '';
+}
